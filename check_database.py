@@ -1,12 +1,5 @@
 import numpy as np
 import pandas as pd
-#import matplotlib.pyplot as plt
-from pulp import *
-from pulp import GUROBI
-from typing import List, Tuple
-from numpy.typing import NDArray
-#from sklearn.metrics import confusion_matrix
-#import time
 
 def check_heart ():
     """Funzione che restituisce il database Heart Failure pronto all'uso"""
